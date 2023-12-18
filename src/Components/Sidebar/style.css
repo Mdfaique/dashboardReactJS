@@ -1,0 +1,50 @@
+.Main-container {
+  width: 19vw;
+  background-color: rgb(32, 32, 50);
+  min-height: 100vh;
+}
+
+.Sidebar-title{
+   color: white;
+   padding: 1rem;
+   font-weight: 400;
+}
+
+.Sidebar-nav-links{
+    color: white;
+    font-size: medium;
+    
+}
+
+.Nav-links{
+    border-radius: 8px;
+    margin: 3px 10px 3px 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    transition: background-color 0.3s;
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+.Nav-links div {
+    margin-right: 1rem;
+}
+
+.Nav-links:hover {
+    background-color: rgba(192, 192, 192, 0.5); 
+    cursor: pointer; 
+}
+
+.Nav-links.active {
+    background-color: rgba(192, 192, 192, 0.5);
+}
+
+@media only screen and (max-width: 850px){
+    .Main-container{
+        width: 35vw;
+    }
+}
+
+
+
